@@ -416,4 +416,7 @@ type CloudConfiguration struct {
 	VSphereResourcePool  *string `json:"vSphereResourcePool,omitempty"`
 	VSphereDatastore     *string `json:"vSphereDatastore,omitempty"`
 	VSphereCoreDNSServer *string `json:"vSphereCoreDNSServer,omitempty"`
+	// spotinst cloud-config specs
+	SpotinstProduct     *string `json:"spotinstProduct,omitempty"`
+	SpotinstOrientation *string `json:"spotinstOrientation,omitempty"`
 }
